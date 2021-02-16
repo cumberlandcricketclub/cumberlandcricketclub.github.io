@@ -16,6 +16,8 @@
 
 		<script src="js/jquery.min.js"></script>
 
+		<script type="module" src="https://storage.googleapis.com/cdn-objex-elements/v1.0.6/objex-elements.esm.js"></script>
+
         <link href="css/font-montserrat.css" rel="stylesheet" type="text/css">
 
     </head>
@@ -58,7 +60,7 @@
 										<a href="#">Team</a>
 									</li>
 									<li>
-										<a href="#">History</a>
+										<a href="#history">History</a>
 									</li>
 									<li>
 										<a href="#sponsors">Sponsors</a>
@@ -172,6 +174,20 @@
 					</div>
 				</div>
 			</section>
+
+			<div style="background: #fff; padding-top: 60px;" id="history">
+				<div style=" max-width: 1163px; margin-left: auto; margin-right: auto;">
+					<h3 style="text-align: center; padding: 20px;">History</h3>
+					<jx-history-timeline timeline='[
+{ "date": "2012", "title": "", "description": "Application to become a member submitted" },
+{ "date": "2012", "title": "", "description": "Application Approved by Executives to become an associate" },
+{ "date": "2012", "title": "", "description": "OVCC General Body approved Cumberland as member" },
+{ "date": "2014", "title": "", "description": "Imported a pitch from UK and maintained a Ground" },
+{ "date": "2015", "title": "", "description": "Made it to playoff as 5th ranked team in Citizen Division" },
+{ "date": "2016", "title": "", "description": "Became full member of OVCC 2016" }
+]'></jx-history-timeline>
+				</div>
+			</div>
 
 			<section class="cta cta-4" id="sponsors">
 				<div class="container">
